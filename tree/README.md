@@ -2,7 +2,7 @@
 
 树是一种抽象数据类型（ADT）或是实现这种抽象数据类型的数据结构，用来模拟具有树状结构性质的数据集合。它是由 n(n>0) 个有限节点组成一个具有层次关系的集合。
 
-<img src="treeModel.png" alt="treeModel" style="zoom:50%;" />
+<img src="images/treeModel.png" alt="treeModel" style="zoom:50%;" />
 
 把它叫做「树」是因为它看起来像一棵倒挂的树，也就是说它是根朝上，而叶朝下的。
 
@@ -26,7 +26,7 @@
 
 ## 二叉树DFS，BFS图解
 
-![treeSearch](treeSearch.png)
+![treeSearch](images/treeSearch.png)
 
 # 深度优先搜索
 

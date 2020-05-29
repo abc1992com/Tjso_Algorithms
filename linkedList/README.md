@@ -2,7 +2,7 @@
 
 链表（Linked List）是一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针（Pointer）。
 
-<img src="linkedList.png" style="zoom:50%;" />
+<img src="images/linkedList.png" style="zoom:50%;" />
 
 由于不必须按顺序存储，链表在插入的时候可以达到 O(1) 的复杂度，比另一种线性表 —— 顺序表快得多，但是查找一个节点或者访问特定编号的节点则需要 O(n) 的时间，而顺序表相应的时间复杂度分别是 O(log n) 和 O(1)。
 
@@ -24,15 +24,15 @@
 
 1.  使用给定值初始化新结点 `cur；`
 
-   <img src="s_add_1.png" style="zoom: 25%;" />
+   <img src="images/s_add_1.png" style="zoom: 25%;" />
 
 2. 将 `cur `的“next”字段链接到 prev 的下一个结点 `next`；
 
-   <img src="s_add_2.png" style="zoom: 25%;" />
+   <img src="images/s_add_2.png" style="zoom: 25%;" />
 
 3. 将 `prev` 中的“next”字段链接到 `cur` 。
 
-   <img src="s_add_3.png" style="zoom: 25%;" />
+   <img src="images/s_add_3.png" style="zoom: 25%;" />
 
 ### 代码表示
 
@@ -49,11 +49,11 @@ prev.next = cur
 
 1. 链接 `cur` 与 `prev` 和 `next`，其中 `next` 是 `prev` 原始的下一个节点；
 
-   <img src="d_add_1.png" style="zoom: 25%;" />
+   <img src="images/d_add_1.png" style="zoom: 25%;" />
 
 2. 用 `cur` 重新链接 `prev` 和 `next`。
 
-   <img src="d_add_2.png" style="zoom: 25%;" />
+   <img src="images/d_add_2.png" style="zoom: 25%;" />
 
 ### 代码表示
 
@@ -76,11 +76,11 @@ next.prev = cur
 
 1. 找到 cur 的上一个结点 `prev` 及其下一个结点 `next；`
 
-   <img src="s_del_1.png" style="zoom: 25%;" />
+   <img src="images/s_del_1.png" style="zoom: 25%;" />
 
 2. 接下来链接 `prev` 到 cur 的下一个节点 `next。`
 
-   <img src="s_del_2.png" style="zoom: 25%;" />
+   <img src="images/s_del_2.png" style="zoom: 25%;" />
 
 ### 代码表示
 
