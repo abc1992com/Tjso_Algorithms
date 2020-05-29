@@ -2,7 +2,7 @@
 
 链表（Linked List）是一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针（Pointer）。
 
-<img src="images/linkedList.png" style="zoom:50%;" />
+<img src="images/LinkedList.png" style="zoom:50%;" />
 
 由于不必须按顺序存储，链表在插入的时候可以达到 O(1) 的复杂度，比另一种线性表 —— 顺序表快得多，但是查找一个节点或者访问特定编号的节点则需要 O(n) 的时间，而顺序表相应的时间复杂度分别是 O(log n) 和 O(1)。
 
