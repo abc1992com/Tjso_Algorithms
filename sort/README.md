@@ -85,7 +85,7 @@ function shell_sort(nums){
     if(!nums || nums.length == 0) return;
     let len = nums.length;
   	let gap = Math.floor(nums.length/2);
-
+//////未完成。。。。。。。
     return nums;
 }
 ```
