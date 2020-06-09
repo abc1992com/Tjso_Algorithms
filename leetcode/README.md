@@ -6,3 +6,5 @@
 
 [20.有效的括号](https://github.com/abc1992com/Tjso_Algorithms/blob/master/leetcode/20.有效的括号.md)
 
+[下一个更大元素 I && II](https://github.com/abc1992com/Tjso_Algorithms/blob/master/leetcode/下一个更大元素.md)
+
